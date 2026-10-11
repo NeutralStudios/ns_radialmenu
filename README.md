@@ -6,12 +6,6 @@ Three themes, a per-character settings page, vehicle and clothing controls, smar
 
 Works with ESX, QBCore, QBox and standalone.
 
-## Get it
-
-**[Download on Tebex](https://store.neutral-studios.com/package/7686751)**
-
-This repository is for information and issues only — the resource itself is distributed through Tebex.
-
 ## Requirements
 - [ox_lib](https://github.com/overextended/ox_lib)
 - [oxmysql](https://github.com/overextended/oxmysql)
