@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ns_radialmenu</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Manrope:wght@500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="radial" class="radial hidden">
+        <div class="radial-title hidden" id="radial-title"></div>
+        <div class="radial-stage" id="radial-stage"></div>
+    </div>
+
+    <div id="settings" class="settings hidden">
+        <div class="stage">
+            <div class="stage-disc live-preview" id="st-preview"></div>
+            <p class="stage-hint" id="st-hint"></p>
+        </div>
+        <aside class="drawer">
+            <header class="dr-head">
+                <div class="dr-title">
+                    <h1 id="st-server"></h1>
+                    <p id="st-sub"></p>
+                </div>
+                <button class="dr-close" id="st-close"><i class="fa-solid fa-xmark"></i></button>
+            </header>
+            <div class="dr-tabs" id="st-tabs"></div>
+            <section class="dr-body" id="st-main"></section>
+            <footer class="dr-foot">
+                <div class="who">
+                    <div class="who-avatar" id="st-avatar"><i class="fa-solid fa-user"></i></div>
+                    <div class="who-text">
+                        <strong id="st-name"></strong>
+                        <small id="st-id"></small>
+                    </div>
+                </div>
+                <button class="reset hidden" id="st-revert"><i class="fa-solid fa-rotate-left"></i><span id="st-revert-label"></span></button>
+            </footer>
+        </aside>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
